@@ -14,17 +14,23 @@ import { getResourcePagesForCity } from "@/lib/resource-pages";
 
 type Params = { slug: string };
 
+/** Plain <img> srcs don't get Next's basePath automatically, so prefix
+ *  them explicitly for the GitHub Pages subpath deployment. */
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 /** Real chapter logo artwork (from the CTC city logo set) */
-const chapterLogos: Record<string, string> = {
-  "new-york": "/logos/new-york.webp",
-  "london": "/logos/london.webp",
-  "boston": "/logos/boston.webp",
-  "san-francisco": "/logos/san-francisco.webp",
-  "los-angeles": "/logos/los-angeles.webp",
-  "washington-dc": "/logos/washington-dc.webp",
-  "san-diego": "/logos/san-diego.webp",
-  "seattle": "/logos/seattle.webp",
-};
+const chapterLogos: Record<string, string> = Object.fromEntries(
+  [
+    "new-york",
+    "london",
+    "boston",
+    "san-francisco",
+    "los-angeles",
+    "washington-dc",
+    "san-diego",
+    "seattle",
+  ].map((slug) => [slug, `${BASE_PATH}/logos/${slug}.webp`]),
+);
 
 /** Short noun for each resource category's card subtitle */
 const categoryNouns: Record<string, string> = {
