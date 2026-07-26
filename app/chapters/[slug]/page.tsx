@@ -80,14 +80,9 @@ export default async function ChapterPage({
   const page = getChapterPage(slug);
   if (!page) notFound();
 
-  // The hero lede is the opening of narrative paragraph 1; strip it here so
-  // the narrative section continues the story instead of repeating it.
-  const firstParaRest = page.narrative[0].startsWith(page.lede)
-    ? page.narrative[0].slice(page.lede.length).trim()
-    : page.narrative[0];
-  const narrative = [firstParaRest, ...page.narrative.slice(1)].filter(
-    Boolean,
-  );
+  // Hero hook and narrative are independent pieces of copy; the narrative
+  // renders in full, verbatim from the source sheet.
+  const narrative = page.narrative;
 
   const resourceTiles = getResourcePagesForCity(slug).map((rp) => ({
     label: rp.sidebarLabel,
