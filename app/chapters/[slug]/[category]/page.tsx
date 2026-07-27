@@ -131,11 +131,6 @@ export default async function ResourceCategoryPage({
                             org.name
                           )}
                         </h3>
-                        {(org.type || org.focus) && (
-                          <p className="mt-1.5 text-[13px] uppercase tracking-wide text-forest/55">
-                            {[org.type, org.focus].filter(Boolean).join(" · ")}
-                          </p>
-                        )}
                         <p className="mt-3 text-[16px] leading-[1.8]">
                           {org.body}
                         </p>

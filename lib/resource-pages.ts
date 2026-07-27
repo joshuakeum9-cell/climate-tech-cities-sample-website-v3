@@ -1637,7 +1637,7 @@ export const resourcePages: ResourcePage[] = [
             url: "https://pge.com",
             type: "Utility",
             focus: "Grid, resilience, decarbonization",
-            body: "Pacific Gas and Electric is California's largest utility and a major pilot and customer-access pathway for climate startups rather than an investor, running an annual Innovation Pitch Fest tied to published problem statements across grid reliability, wildfire resilience, electrification, and load growth. Founders apply against those problems and finalists pitch decision-makers to co-develop deployable projects on PG&E's systems, supported by state clean-energy R&D funding, with eligibility favouring near-market solutions.",
+            body: "Pacific Gas and Electric is California's largest utility and a major pilot and customer-access pathway for climate startups rather than an investor, running an annual Innovation Pitch Fest tied to published problem statements across grid reliability, wildfire resilience, electrification, and load growth. Founders apply against those problems and finalists pitch decision-makers to co-develop deployable projects on PG&E's systems, supported by state clean-energy R&D funding, with eligibility favoring near-market solutions.",
           },
         ],
       },
@@ -2510,7 +2510,7 @@ export const resourcePages: ResourcePage[] = [
             url: "https://kstreet.vc",
             type: "Venture capital",
             focus: "Early-stage incl. climatetech",
-            body: "K Street Capital is a Washington-based early-stage venture firm that explicitly includes climatetech among its focus sectors, investing through a seed fund, an invite-only angel syndicate, and a DC-focused fund of funds, and it administers the District's venture-capital program backing early-stage managers. Beyond capital it offers mentorship, a large investor and operator network from government, media, technology, and finance, and advisory services, favouring regulated markets.",
+            body: "K Street Capital is a Washington-based early-stage venture firm that explicitly includes climatetech among its focus sectors, investing through a seed fund, an invite-only angel syndicate, and a DC-focused fund of funds, and it administers the District's venture-capital program backing early-stage managers. Beyond capital it offers mentorship, a large investor and operator network from government, media, technology, and finance, and advisory services, favoring regulated markets.",
           },
           {
             name: "Constellation Technology Ventures",
@@ -3103,7 +3103,7 @@ export const resourcePages: ResourcePage[] = [
             url: "https://stepchange.vc",
             type: "Venture capital",
             focus: "Climate software / infrastructure",
-            body: "Stepchange is a Seattle-based climate VC investing pre-seed and seed with early checks, focused on climate software and asset-light, software-enabled solutions across transportation, the built environment, energy and the grid, and adaptation and resilience, favouring companies that do not rely on green premiums or subsidies. Beyond capital it offers hands-on product and operator expertise from founders with notable exits, a strong LP network, and a climate community. It has a genuine Seattle presence.",
+            body: "Stepchange is a Seattle-based climate VC investing pre-seed and seed with early checks, focused on climate software and asset-light, software-enabled solutions across transportation, the built environment, energy and the grid, and adaptation and resilience, favoring companies that do not rely on green premiums or subsidies. Beyond capital it offers hands-on product and operator expertise from founders with notable exits, a strong LP network, and a climate community. It has a genuine Seattle presence.",
           },
         ],
       },
@@ -3166,7 +3166,7 @@ export const resourcePages: ResourcePage[] = [
             url: "https://polsky.uchicago.edu",
             type: "University accelerator",
             focus: "AI & data science incl. climate",
-            body: "Transform is Polsky's data science and artificial intelligence accelerator, and it is not climate-dedicated, though climate and environment companies are explicitly eligible. Selected teams receive funding, curriculum, and mentorship modelled on Polsky's quantum accelerator, plus introductions to investors working in applied AI. Climate founders whose wedge is software and data fit better here than hardware founders, who should look at Resurgence.",
+            body: "Transform is Polsky's data science and artificial intelligence accelerator, and it is not climate-dedicated, though climate and environment companies are explicitly eligible. Selected teams receive funding, curriculum, and mentorship modeled on Polsky's quantum accelerator, plus introductions to investors working in applied AI. Climate founders whose wedge is software and data fit better here than hardware founders, who should look at Resurgence.",
           },
           {
             name: "George Shultz Innovation Fund",
@@ -3313,7 +3313,7 @@ export const resourcePages: ResourcePage[] = [
             url: "https://polsky.uchicago.edu",
             type: "University accelerator",
             focus: "AI & data science incl. climate",
-            body: "Transform is Polsky's data science and artificial intelligence accelerator, and it is not climate-dedicated, though climate and environment companies are explicitly eligible. Selected teams receive funding, curriculum, and mentorship modelled on Polsky's quantum accelerator, plus introductions to investors working in applied AI. Climate founders whose wedge is software and data fit better here than hardware founders, who should look at Resurgence.",
+            body: "Transform is Polsky's data science and artificial intelligence accelerator, and it is not climate-dedicated, though climate and environment companies are explicitly eligible. Selected teams receive funding, curriculum, and mentorship modeled on Polsky's quantum accelerator, plus introductions to investors working in applied AI. Climate founders whose wedge is software and data fit better here than hardware founders, who should look at Resurgence.",
           },
           {
             name: "Chain Reaction Innovations",
@@ -3411,7 +3411,7 @@ export const resourcePages: ResourcePage[] = [
             url: "https://exeloncorp.com",
             type: "Corporate investment program",
             focus: "Clean energy & environmental sustainability",
-            body: "The Climate Change Investment Initiative, known as 2c2i, is Exelon's venture-style program for early-stage clean energy and environmental sustainability companies, run from its Chicago headquarters with the Exelon Foundation. It is one of the few utility programs with a genuine open application cycle rather than an invitation-only pipeline, and it favours companies operating in the territories Exelon's utilities serve, which includes northern Illinois. Alongside investment it opens the door to utility operators who can evaluate and pilot a technology.",
+            body: "The Climate Change Investment Initiative, known as 2c2i, is Exelon's venture-style program for early-stage clean energy and environmental sustainability companies, run from its Chicago headquarters with the Exelon Foundation. It is one of the few utility programs with a genuine open application cycle rather than an invitation-only pipeline, and it favors companies operating in the territories Exelon's utilities serve, which includes northern Illinois. Alongside investment it opens the door to utility operators who can evaluate and pilot a technology.",
           },
           {
             name: "ComEd",
