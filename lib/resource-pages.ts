@@ -205,6 +205,13 @@ export const resourcePages: ResourcePage[] = [
             focus: "Hard-tech / climate entrepreneurship",
             body: "Activate runs a two-year fellowship turning scientists and engineers into hard-tech founders, with a dedicated Activate New York community built with NYSERDA and Columbia. It charges no fees and takes no equity, providing a living stipend, R&D funding, flexible capital, lab access, a startup curriculum, mentorship, and an investor and partner network. It targets first-time hard-tech founders working full time who have not raised significant private capital.",
           },
+          {
+            name: "Urban Future Lab (ACRE)",
+            url: "https://www.ufl.nyc/",
+            type: "Incubator / Hub",
+            focus: "Clean energy, urban decarb",
+            body: "Urban Future Lab at NYU Tandon is New York's longest-running climatetech incubator, home to ACRE, backing founders from pre-seed to Series A without taking equity. Companies get 24/7 Downtown Brooklyn workspace, advisory across legal, accounting, and design, and introductions to investors, mentors, and corporate buyers, backed by NYSERDA, NYCEDC, and National Grid. Adjacent programs include the Carbon to Value carbontech initiative, the Offshore Wind Innovation Hub, an international landing pad, and the Urban Future Prize, which pairs non-dilutive cash with an ACRE spot.",
+          },
         ],
       },
     ],
@@ -614,6 +621,13 @@ export const resourcePages: ResourcePage[] = [
             type: "Venture builder",
             focus: "Mission-driven incl. climate",
             body: "Zinc is a London venture builder that backs individual founders, including pre-team and pre-idea, to build commercial businesses in mission areas including climate and health. Its full-time, roughly twelve-month program provides a founder stipend, a first cheque plus follow-on, a large pool of potential co-founders, expert fellows, in-house R&D support, coaching, office space, and investor introductions.",
+          },
+          {
+            name: "Undaunted (Centre for Climate Change Innovation)",
+            url: "https://undaunted-hq.org/",
+            type: "Incubator / Accelerator",
+            focus: "Climate innovation",
+            body: "Undaunted's flagship is The Greenhouse, a 12-month equity-free climate accelerator run with the Royal Institution and Imperial's Grantham Institute for pre-seed hard-science founders around TRL 3 to 5. Selected startups get equity-free grant funding, masterclasses and coaching from technical and commercial experts, free central-London workspace, and access to Imperial's lab benches, prototyping, investor network, and alumni community, closing with a Demo Day. Admission is highly competitive and graduation requires raising a set investment threshold.",
           },
         ],
       },
@@ -1114,6 +1128,25 @@ export const resourcePages: ResourcePage[] = [
             focus: "Early-stage cleantech",
             body: "Cleantech Open Northeast is the regional arm of the world's largest and oldest cleantech accelerator, a months-long, zero-equity program built on non-dilutive support. Founders get cleantech-specific mentorship, a structured curriculum, national bootcamps, pitch competitions with cash prizes, and connections to financiers, partners, and early-adopter customers across energy, water, waste, agriculture, and transportation. It takes no equity unless a prize is awarded.",
           },
+          {
+            name: "MIT delta v",
+            url: "https://entrepreneurship.mit.edu",
+            type: "University Accelerator",
+            focus: "Cross-sector incl. climate",
+            body: "MIT delta v is the Institute's capstone student accelerator, a full-time, in-person summer cohort run by the Martin Trust Center that ends in Demo Day, with equity-free milestone funding and student fellowships. It uses MIT's disciplined-entrepreneurship framework, entrepreneurs-in-residence, and mock boards, and is highly selective, admitting only a fraction of applicant teams. Founder and operator partners add hands-on mentorship.",
+          },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
+          {
+            name: "Harvard Innovation Labs - Climate Circle",
+            url: "https://innovationlabs.harvard.edu/climate",
+            type: "University Accelerator",
+            focus: "Climate mitigation & adaptation",
+            body: "Harvard Climate Circle is a selective, year-long program for Harvard-affiliated climate ventures, run with the business school and alumni climate network, offering coaching, pro bono legal counsel, negotiations advising, warm industry introductions, and a peer cohort, all free and without equity. A distinctive first-customer program lets ventures pilot and sell to Harvard operations, using the campus as a living lab. For-profit and nonprofit ventures are welcome, with a resilience and adaptation track added.",
+          },
         ],
       },
     ],
@@ -1289,6 +1322,13 @@ export const resourcePages: ResourcePage[] = [
       {
         orgs: [
           {
+            name: "MIT Sandbox Innovation Fund",
+            url: "https://innovation.mit.edu/sandbox",
+            type: "University Fund",
+            focus: "Cross-sector incl. climate",
+            body: "MIT Sandbox is the entry-point venture program for any MIT student, providing non-dilutive, milestone-based seed funding plus mentorship from experienced founders and tailored entrepreneurship education. It is open at any stage, runs across fall, spring, and summer, and is not a competition, so hundreds of teams take part. It takes no equity.",
+          },
+          {
             name: "Spring Lane Capital",
             url: "https://springlanecapital.com/",
             type: "Project / Venture capital",
@@ -1313,7 +1353,7 @@ export const resourcePages: ResourcePage[] = [
     sidebarLabel: "Universities",
     title: "Climate Programs at Universities",
     introLead: "Whether you're starting a career in climate, hiring talent, or building on the latest research, San Francisco's universities are the place to start.",
-    introBody: "Stanford (Doerr School of Sustainability), UC Berkeley (Energy & Resources Group / Bakar Climate Labs), Lawrence Berkeley National Laboratory anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
+    introBody: "Stanford (Doerr School of Sustainability), UC Berkeley (Energy & Resources Group / Bakar Climate Labs), UC Davis (Energy & Efficiency Institute) anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
     groups: [
       {
         heading: "Stanford (Doerr School of Sustainability)",
@@ -1397,39 +1437,6 @@ export const resourcePages: ResourcePage[] = [
         photoBreakAfter: true,
       },
       {
-        heading: "Lawrence Berkeley National Laboratory",
-        orgs: [
-          {
-            name: "Cyclotron Road (Lab-Embedded Entrepreneurship)",
-            url: "https://cyclotronroad.lbl.gov/",
-            type: "Fellowship",
-            focus: "Deep-tech / clean energy",
-            body: "Cyclotron Road at Berkeley Lab is the keystone lab-embedded entrepreneurship program, run with the nonprofit Activate, supporting scientist-founders through a two-year fellowship to move hard-science ideas from concept to first product. Fellows receive a living stipend, health coverage, relocation support, research funding at the lab, and access to world-class facilities, with no equity taken and IP retained, delivered through a weekly curriculum, mentorship, and a peer community. Bay Area relocation is required.",
-          },
-          {
-            name: "Energy Technologies & Energy Sciences Areas",
-            url: "https://eta.lbl.gov/",
-            type: "Research divisions",
-            focus: "Clean energy",
-            body: "Berkeley Lab's Energy Technologies and Energy Sciences Areas are national-laboratory research divisions, not a startup program, conducting energy R&D and operating user facilities. Founders access them through other mechanisms, chiefly Cyclotron Road and Activate for an embedded fellowship, CalTestBed for paid facility access, and lab licensing. Their value is science and facilities, not cohorts or capital.",
-          },
-          {
-            name: "Earth & Environmental Sciences Area (EESA)",
-            url: "https://eesa.lbl.gov/",
-            type: "Research division",
-            focus: "Earth & climate systems",
-            body: "Berkeley Lab's Earth and Environmental Sciences Area is a research division focused on subsurface, climate, and water systems, not a founder program. Its outputs are science and facilities rather than cohorts or capital. Founders route to Cyclotron Road and Activate for embedded support, CalTestBed for facility access, and lab tech-transfer for licensing.",
-          },
-          {
-            name: "Joint BioEnergy Institute (JBEI)",
-            url: "https://www.jbei.org/",
-            type: "Research institute",
-            focus: "Bioenergy & biofuels",
-            body: "The Joint BioEnergy Institute at Berkeley Lab is a federal bioenergy research center in synthetic biology for biofuels and bioproducts, not a startup accelerator, whose IP and expertise seed companies without a founder cohort. Bio-based climate founders route to SOSV, Cyclotron Road and Activate, and lab licensing, and can target CalSEED. Its value is science and licensable IP.",
-          },
-        ],
-      },
-      {
         heading: "UC Davis (Energy & Efficiency Institute)",
         orgs: [
           {
@@ -1447,7 +1454,6 @@ export const resourcePages: ResourcePage[] = [
             body: "UC Davis's EEI research centers, spanning lighting, cooling efficiency, and transportation, are specialized academic centers offering testing, demonstration, and applied research rather than cohorts or capital. Several serve as testbeds founders can access through CalTestBed, alongside CITRIS Foundry and Cleantech Open West. Their value is validation and demonstration capability.",
           },
         ],
-        photoBreakAfter: true,
       },
       {
         heading: "Santa Clara University (Miller Center)",
@@ -1527,6 +1533,46 @@ export const resourcePages: ResourcePage[] = [
             type: "Innovation hub",
             focus: "Cleantech & mobility",
             body: "Prospect Silicon Valley is a San Jose nonprofit urbantech innovation hub for mobility, energy, and the built environment, whose distinctive offering is a technology demonstration center with workspace, lab and prototyping space, and a connected-vehicle testbed. It adds commercialization support and connections to corporate and government partners and investors, with recent work in building decarbonization and equitable clean mobility.",
+          },
+          {
+            name: "StartX",
+            url: "https://startx.com",
+            type: "Accelerator",
+            focus: "Stanford-affiliated startups",
+            body: "StartX is a nonprofit accelerator and lifelong founder community for Stanford-affiliated founders, taking no equity and charging no fees, with three cohorts a year across a full-time accelerator and a student fellowship. Founders get assigned mentors, one-to-one staff support, a heavy events calendar, drop-in office space, a large perks package, and a durable network used for hiring and early customers. It is industry and stage agnostic, and a separate opt-in fund co-invests only after a company raises from professional investors.",
+          },
+          {
+            name: "CITRIS Foundry",
+            url: "https://citrisfoundry.org",
+            type: "University Incubator",
+            focus: "Hardware, climate",
+            body: "CITRIS Foundry is the University of California's deep-tech incubator for founders from its member campuses, requiring a UC tie and at least two founders, and explicitly no-cost and no-equity. Value comes from a roughly six-month tailored program of intensive early coaching and milestone work, mentorship, and access to UC labs, fablabs, and testbeds plus on-campus workspace. Its focus is deep tech including sustainability, resilience, and energy.",
+          },
+          {
+            name: "Berkeley SkyDeck",
+            url: "https://skydeck.berkeley.edu",
+            type: "Accelerator",
+            focus: "Cross-sector incl. climate",
+            body: "Berkeley SkyDeck is UC Berkeley's flagship accelerator, running a roughly six-month, mostly in-person program in downtown Berkeley that ends in a Demo Day before many investors. Its cohort track is dilutive, with the SkyDeck Fund investing for a modest equity stake and uniquely sharing half its profits with the university, while a separate Pad-13 track gives earlier teams partial resources without a guaranteed check. It is industry-agnostic with deep-tech tracks.",
+          },
+          {
+            name: "Cyclotron Road (Lab-Embedded Entrepreneurship)",
+            url: "https://cyclotronroad.lbl.gov/",
+            type: "Fellowship",
+            focus: "Deep-tech / clean energy",
+            body: "Cyclotron Road at Berkeley Lab is the keystone lab-embedded entrepreneurship program, run with the nonprofit Activate, supporting scientist-founders through a two-year fellowship to move hard-science ideas from concept to first product. Fellows receive a living stipend, health coverage, relocation support, research funding at the lab, and access to world-class facilities, with no equity taken and IP retained, delivered through a weekly curriculum, mentorship, and a peer community. Bay Area relocation is required.",
+          },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
+          {
+            name: "Miller Center - Global Social Benefit Institute",
+            url: "https://millercenterglobal.org/",
+            type: "Accelerator / program",
+            focus: "Social & climate entrepreneurship",
+            body: "Santa Clara's Miller Center runs one of the world's largest accelerators for social enterprises, focused on climate resilience and women's economic power, pairing each venture with Silicon Valley executive mentors over a roughly six-month cohort delivered online with an in-residence component, free and without equity. It refines impact and business models and investment readiness, and its impact fund provides debt financing to top graduates.",
           },
         ],
       },
@@ -1940,6 +1986,32 @@ export const resourcePages: ResourcePage[] = [
             focus: "Early-stage cleantech",
             body: "Cleantech Open Southwest is the Southern California region of the world's largest cleantech accelerator, running the national annual program for early-stage cleantech startups as a paid, non-equity program unless a company wins seed prizes. Founders get a customer-discovery and business-model curriculum, extensive pro bono mentoring, investor and corporate introductions, national bootcamps, and regional and global showcases across energy, storage, transport, buildings, water, and materials.",
           },
+          {
+            name: "USC Viterbi Startup Garage",
+            url: "https://viterbi.usc.edu",
+            type: "University Accelerator",
+            focus: "Tech incl. climate",
+            body: "USC's Viterbi Startup Garage is a university accelerator in Marina del Rey running a one-year residency for early-stage technology startups, now taking no equity and no fees with founders keeping all IP. Founders get around-the-clock coworking space, innovator-in-residence coaching, specialist mentors from the USC network, workshops, a speaker series, and investor introductions, with a national commercialization partnership. It is sector-agnostic, including climate hardware and software.",
+          },
+          {
+            name: "UCLA Anderson Venture Accelerator",
+            url: "https://anderson.ucla.edu",
+            type: "University Accelerator",
+            focus: "Cross-sector incl. climate",
+            body: "The UCLA Anderson Venture Accelerator is a university accelerator running cohort programs a few times a year, including an immersive multi-month accelerator with mentor pairings, proof-of-concept grants, and around-the-clock on-campus workspace, plus a summer incubator and a demo-day showcase. Founders get mentorship from the Anderson network, cross-campus technical office hours, mock investor interviews, and go-to-market and legal sessions, and cohorts regularly include clean and sustainable technology.",
+          },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
+          {
+            name: "EPIC proof-of-concept incubator",
+            url: "https://innovation.ucr.edu/entrepreneurs",
+            type: "Incubator",
+            focus: "Climate/energy commercialization",
+            body: "UC Riverside's EPIC incubator provides no-cost, non-dilutive support to early-stage Inland Southern California founders through one-to-one consulting from entrepreneurs-in-residence, training and workshops, SBIR and STTR proposal help, and investor connections, with its ExCITE incubator adding coworking space and mentoring. Mentors take no equity, and it has administered regional clean-energy innovation funding.",
+          },
         ],
       },
     ],
@@ -2211,25 +2283,6 @@ export const resourcePages: ResourcePage[] = [
           },
         ],
       },
-      {
-        heading: "Independent Research Institutions (Washington DC)",
-        orgs: [
-          {
-            name: "World Resources Institute (WRI)",
-            url: "https://www.wri.org/",
-            type: "Independent global research institute",
-            focus: "Climate, energy, sustainable cities",
-            body: "The World Resources Institute is a global research institute headquartered in DC, and while it runs entrepreneur programs they are land-restoration focused and targeted at Africa, Latin America, and South Asia rather than DMV climate tech broadly. For a DMV founder its local value is research and convening rather than a program. Founders route to MEIA and Halcyon for regional support.",
-          },
-          {
-            name: "Resources for the Future (RFF)",
-            url: "https://www.rff.org/",
-            type: "Independent research institute",
-            focus: "Environmental & energy economics",
-            body: "Resources for the Future is an independent environmental-economics research institution in DC producing impartial analysis, such as work underpinning the social cost of carbon, with no startup program. Its value to founders is economic and policy knowledge rather than capital or acceleration. Founders route to accelerators and funds for venture support.",
-          },
-        ],
-      },
     ],
   },
   {
@@ -2296,6 +2349,13 @@ export const resourcePages: ResourcePage[] = [
             type: "Accelerator",
             focus: "Climate adaptation/resilience",
             body: "The Halcyon Global Climate Accelerator is Halcyon's global adaptation and resilience program, distinct from its DMV fellowship, a roughly six-month hybrid with a virtual kickoff and in-person residency weeks in Washington and Los Angeles. Founders receive an equity-free stipend, training in Halcyon's methodology, masterclasses, connections to impact investors and multilaterals, and a global community, with skill series in blended and adaptation finance and non-dilutive funding. It requires a for-profit with a working MVP and early commercial validation.",
+          },
+          {
+            name: "Johns Hopkins Ward Infinity Impact Accelerator",
+            url: "https://gce.jhu.edu/ward-infinity/",
+            type: "Accelerator",
+            focus: "Climate resilience / local food systems",
+            body: "Ward Infinity is a sixteen-week, equity-free accelerator run by Johns Hopkins for community-rooted ventures solving health and environmental challenges across the DC metro, based at a local hospital campus, with a climate-resilience and local-food-systems track. Fellows get capital, mentorship, and resources, blending design thinking, public health, and entrepreneurship, and join a lasting network of changemakers. It takes no equity.",
           },
         ],
       },
@@ -2478,6 +2538,13 @@ export const resourcePages: ResourcePage[] = [
             focus: "Climate, health & equity tech",
             body: "Halcyon Venture Partners is the investing arm of Halcyon in Georgetown, deploying a fund into pre-seed and seed ventures across climate, health, and equity tech drawn from the Halcyon accelerator and beyond, and running HVP Angels, the only angel network in the region organized around impact. The angel group gathers quarterly to hear selected pitches and invests through managed special-purpose vehicles, so a founder gains one clean line on the cap table rather than a scattered roster of individuals, and its record skews heavily toward women founders and founders of color.",
           },
+          {
+            name: "Maryland Momentum Fund",
+            url: "https://momentum.usmd.edu/",
+            type: "University venture fund",
+            focus: "University startup capital (climate-adjacent)",
+            body: "The Maryland Momentum Fund is a university venture fund providing gap equity or convertible-note investment into Maryland startups affiliated with the state university system by founder, IP, or location, positioning them for a Series A within a year or two. It is sector-agnostic, so climate is eligible but not the focus, and requires a third-party co-investment match, with coaching even for applicants not selected.",
+          },
         ],
       },
     ],
@@ -2557,40 +2624,6 @@ export const resourcePages: ResourcePage[] = [
         ],
       },
       {
-        heading: "Salk Institute",
-        orgs: [
-          {
-            name: "Harnessing Plants Initiative (HPI)",
-            url: "https://www.salk.edu/harnessing-plants-initiative/",
-            type: "Research initiative",
-            focus: "Plant & climate science",
-            body: "The Salk Institute's Harnessing Plants Initiative is a basic-research and postdoctoral-training program engineering crops to capture and store more atmospheric carbon in their roots, funded by philanthropy and corporate gifts, not a founder program. Its relevance to founders is licensable IP, scientific collaboration, and talent rather than an accelerator or startup funding. Carbon-removal founders route to UC San Diego commercialization and external carbon-removal accelerators.",
-          },
-          {
-            name: "CRoPS - CO2 Removal on a Planetary Scale",
-            url: "https://www.salk.edu/harnessing-plants-initiative/research/",
-            type: "Research project",
-            focus: "Carbon capture",
-            body: "The Salk Institute's CRoPS program develops carbon-storing food crops such as wheat, rice, corn, and sorghum as basic research, not a founder program, with no accelerator or startup funding. Its founder relevance is licensable IP and scientific talent. Carbon-removal founders route to UC San Diego von Liebig and IGE and external carbon-removal accelerators and funders.",
-          },
-          {
-            name: "Coastal Plant Restoration (CPR)",
-            url: "https://www.salk.edu/harnessing-plants-initiative/",
-            type: "Research project",
-            focus: "Wetlands & carbon storage",
-            body: "The Salk Institute's Coastal Plant Restoration program develops carbon-holding wetland plants as basic research, not a founder program, offering no accelerator or startup funding. Its founder relevance is licensable IP and scientific collaboration. Coastal and blue-carbon founders route to UC San Diego commercialization and startBlue.",
-          },
-          {
-            name: "Plant biology research & postdoctoral training",
-            url: "https://www.salk.edu/science/power-of-plants/",
-            type: "Research / training",
-            focus: "Plant science for climate",
-            body: "The Salk Institute's plant-biology research and postdoctoral training is basic science and talent development, not a founder program, with no accelerator, funding, or commercialization support for external founders. Its value to founders is scientific collaboration, licensable IP, and a talent pipeline. Founders route to UC San Diego von Liebig and IGE for commercialization.",
-          },
-        ],
-        photoBreakAfter: true,
-      },
-      {
         heading: "University of San Diego (Brink SBDC)",
         orgs: [
           {
@@ -2635,6 +2668,20 @@ export const resourcePages: ResourcePage[] = [
             type: "Accelerator",
             focus: "Cross-sector startups",
             body: "CONNECT's Springboard is a free, no-equity mentoring and acceleration program pairing early-stage tech and life-science founders with seasoned executive mentors to sharpen their business model, commercialization strategy, and investor pitch over several months, as part of the regional SBDC network. It is explicitly not a funding program and does not itself introduce founders to investors, which run through separate CONNECT programs.",
+          },
+          {
+            name: "startBlue accelerator & Triton Innovation Challenge",
+            url: "https://startblue.ucsd.edu/",
+            type: "Accelerator / competition",
+            focus: "Ocean & climate ventures",
+            body: "startBlue is an intensive, no-cost, no-equity accelerator from Scripps and the Rady School for ocean and freshwater blue-economy startups, running several months with in-person weeks in San Diego across early-stage and scale tracks, offering matched mentors, ocean-focused technology-development facilities, a demo day, and non-dilutive award eligibility. The paired Triton Innovation Challenge is an annual campus environmental-tech pitch competition with cash prizes and a path to larger university fund investment.",
+          },
+          {
+            name: "ZIP Launchpad (SDSU)",
+            url: "https://ziplaunchpad.sdsu.edu/about",
+            type: "University incubator",
+            focus: "Cross-sector incl. cleantech",
+            body: "SDSU's ZIP Launchpad is a free, extracurricular, equity-free campus incubator for students, staff, faculty, and researchers across all majors, running several semesters with weekly curriculum, a dozen-plus advisors, a rapid-prototyping idea lab, paid student interns, pro bono legal guidance, around-the-clock coworking, and small non-equity working-capital grants. It supports founders across sectors, including climate and hardware.",
           },
         ],
       },
@@ -2748,7 +2795,7 @@ export const resourcePages: ResourcePage[] = [
     sidebarLabel: "Universities",
     title: "Climate Programs at Universities",
     introLead: "Whether you're starting a career in climate, hiring talent, or building on the latest research, Seattle's universities are the place to start.",
-    introBody: "University of Washington (Clean Energy Institute), Pacific Northwest National Laboratory (PNNL), Washington State University (Office of Commercialization) anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
+    introBody: "University of Washington (Clean Energy Institute), Washington State University (Office of Commercialization), Western Washington University (Institute for Energy Studies) anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
     groups: [
       {
         heading: "University of Washington (Clean Energy Institute)",
@@ -2798,40 +2845,6 @@ export const resourcePages: ResourcePage[] = [
         ],
       },
       {
-        heading: "Pacific Northwest National Laboratory (PNNL)",
-        orgs: [
-          {
-            name: "Energy & Environment Internship Program (EEIP)",
-            url: "https://www.pnnl.gov/energy-and-environment-internship-program",
-            type: "Internship program",
-            focus: "Energy & environment",
-            body: "Pacific Northwest National Laboratory's Energy and Environment Internship Program is a paid multi-week STEM research internship with mentorship and professional development, not a founder program, offering no accelerator, funding, or commercialization support for startups. It is a talent pipeline, and founders wanting to engage the lab commercially should pursue its technology-licensing and collaborative-agreement pathways or use the Clean Energy Testbeds for prototyping.",
-          },
-          {
-            name: "WDTS Internships (SULI / CCI)",
-            url: "https://www.pnnl.gov/wdts-internships",
-            type: "Internship programs",
-            focus: "Clean energy & STEM",
-            body: "PNNL's federally sponsored undergraduate research internships are multi-week summer or term placements, a pure workforce and education pipeline rather than a founder program, with no accelerator, funding, or commercialization support. Founders wanting to engage the lab should pursue technology transfer and licensing or use regional accelerators.",
-          },
-          {
-            name: "Joint Institutes (with UW, WSU, UMD)",
-            url: "https://www.pnnl.gov/joint-institutes",
-            type: "Research institutes",
-            focus: "Energy, grid & climate",
-            body: "PNNL's joint institutes are research collaborations with regional universities assembling faculty, staff, and students for multi-disciplinary research and workforce training, not founder programs, though they can seed technology and industry ecosystems. Founders engage them through licensing and collaborative research agreements rather than direct startup services. Founders route to the WSU Office of Commercialization or CoMotion for commercialization.",
-          },
-          {
-            name: "Distinguished Graduate Research Program",
-            url: "https://www.pnnl.gov/education",
-            type: "Graduate research program",
-            focus: "Energy & environment research",
-            body: "PNNL's Distinguished Graduate Research Program is a joint PhD program embedding doctoral students in lab research, funded by their advisors, a talent pipeline rather than a founder program with no startup services. Its value to founders is technical talent and research collaboration. Founders route to lab tech transfer and regional accelerators for commercialization.",
-          },
-        ],
-        photoBreakAfter: true,
-      },
-      {
         heading: "Washington State University (Office of Commercialization)",
         orgs: [
           {
@@ -2863,6 +2876,7 @@ export const resourcePages: ResourcePage[] = [
             body: "The WSU Energy Program is a self-supporting university department operating like a state energy office and consulting extension, delivering energy-efficiency technical assistance, industrial assessments, building-code support, free analytical software, and state community-energy programs, not a startup program. It is useful to founders as a technical-assistance and market-connection resource across utilities, industry, and agencies, but it does not fund or incubate startups.",
           },
         ],
+        photoBreakAfter: true,
       },
       {
         heading: "Western Washington University (Institute for Energy Studies)",
@@ -2909,6 +2923,13 @@ export const resourcePages: ResourcePage[] = [
             type: "Incubator / Fund",
             focus: "Cleantech",
             body: "VertueLab is a Portland-based, Pacific Northwest climate-tech nonprofit incubator and fund combining catalytic capital with holistic support, whose climate impact fund makes pre-seed and early-stage investments in high-impact companies across the region. Beyond capital it co-runs the Cascadia accelerator, offers low-cost federal grant-writing assistance for SBIR and STTR, provides prototyping access through the Clean Energy Testbeds, and runs equity-focused programs.",
+          },
+          {
+            name: "UW CoMotion Labs - Climate Tech Incubator",
+            url: "https://comotion.uw.edu",
+            type: "University Incubator",
+            focus: "Energy, materials, electrification",
+            body: "UW's CoMotion Climate Tech Incubator is a cohort-based, equity-free incubator at the downtown Seattle Climate Innovation Hub run with the city and partners, offering tailored mentorship, a climate-tech network, business-development curriculum, downtown coworking and makerspace access, connections to UW labs, and a demo day. It prefers UW spinouts but accepts non-UW startups and is not built for pure ideation-stage teams.",
           },
         ],
       },
@@ -2959,6 +2980,18 @@ export const resourcePages: ResourcePage[] = [
             type: "Federal program",
             focus: "Deep tech incl. climate",
             body: "NSF America's Seed Fund provides equity-free federal R&D grants to US deep-tech startups, including climate, with a phase-one proof-of-concept award followed by a larger phase-two and a combined fast-track option, and founders keep full ownership and IP. Beyond cash it offers program-director guidance, customer-discovery training, and reviewer feedback even when declined. It is national rather than Pacific Northwest-specific.",
+          },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
+          {
+            name: "Washington Clean Energy Testbeds",
+            url: "https://wcet.washington.edu",
+            type: "University Facility",
+            focus: "Prototyping, scale-up",
+            body: "The Washington Clean Energy Testbeds are an open-access fabrication, testing, and prototyping facility in Seattle created by UW's Clean Energy Institute for solar, energy storage, systems integration, and pilot-scale batteries, where founders keep their IP and pay per use, with staff who can run R&D for them. Its dedicated founder program, CHIP, offers funded facility access for pre-Series-B startups over roughly six months plus a materials allowance, open to applicants nationwide.",
           },
         ],
       },
@@ -3083,7 +3116,7 @@ export const resourcePages: ResourcePage[] = [
     sidebarLabel: "Universities",
     title: "Climate Programs at Universities",
     introLead: "Whether you're starting a career in climate, hiring talent, or building on the latest research, Chicago's universities are the place to start.",
-    introBody: "Northwestern University (Paula M. Trienens Institute for Sustainability and Energy), University of Chicago (Polsky Center for Entrepreneurship and Innovation), Argonne National Laboratory (Lemont, Illinois) anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
+    introBody: "Northwestern University (Paula M. Trienens Institute for Sustainability and Energy), University of Chicago (Polsky Center for Entrepreneurship and Innovation), University of Illinois (Discovery Partners Institute) anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
     groups: [
       {
         heading: "Northwestern University (Paula M. Trienens Institute for Sustainability and Energy)",
@@ -3146,25 +3179,6 @@ export const resourcePages: ResourcePage[] = [
         photoBreakAfter: true,
       },
       {
-        heading: "Argonne National Laboratory (Lemont, Illinois)",
-        orgs: [
-          {
-            name: "Chain Reaction Innovations",
-            url: "https://chainreaction.anl.gov",
-            type: "Lab-embedded fellowship",
-            focus: "Energy & materials hard tech",
-            body: "Chain Reaction Innovations is the entrepreneurship program embedded inside Argonne National Laboratory in Lemont, part of the Department of Energy's lab-embedded entrepreneurship network. Fellows spend two years working full time on their technology with a stipend, a research allocation, and access to facilities almost no startup could otherwise reach, including the Advanced Photon Source, the Center for Nanoscale Materials, and the laboratory's battery prototyping facility, alongside a scientist mentor and business coaching from the Polsky Center and mHUB. Entry is through an annual application call and the program takes no equity.",
-          },
-          {
-            name: "Energy Storage Research Alliance (ESRA)",
-            url: "https://anl.gov",
-            type: "Research alliance",
-            focus: "Batteries & energy storage",
-            body: "ESRA is the Argonne-led battery and energy-storage research alliance that carries forward the science built up under the Joint Center for Energy Storage Research, working with Berkeley Lab and Pacific Northwest National Laboratory. It is a research consortium rather than a startup program, so it is best read as the reason Chicagoland has world-class storage expertise on its doorstep, alongside the Argonne Collaborative Center for Energy Storage Science for industry collaborations. Founders who want to build on this work should apply to Chain Reaction Innovations.",
-          },
-        ],
-      },
-      {
         heading: "University of Illinois (Discovery Partners Institute)",
         orgs: [
           {
@@ -3175,7 +3189,6 @@ export const resourcePages: ResourcePage[] = [
             body: "Discovery Partners Institute is the University of Illinois system's applied research and business-building institute in the Loop, led by the Grainger College of Engineering. Its current mandate centers on artificial intelligence, quantum, and next-generation computing rather than climate, so it is not a climate startup program, although it has anchored federally funded work on clean energy and transportation and remains a route into Illinois research talent. Climate founders should treat it as a talent and research-partnership channel and look to mHUB or the Polsky Center for programming.",
           },
         ],
-        photoBreakAfter: true,
       },
       {
         heading: "University of Illinois Chicago",
@@ -3195,6 +3208,7 @@ export const resourcePages: ResourcePage[] = [
             body: "Spark is UIC's entrepreneurship pathway, running a venture challenge, a fellowship placed at 1871, and federally supported customer discovery training, with licensing handled by the Office of Technology Management. UIC is also a named partner in the region's federally funded water innovation engine, leading workforce development and research on contaminant removal, so climate founders find both talent and research partners here. Programming is primarily for UIC affiliates.",
           },
         ],
+        photoBreakAfter: true,
       },
       {
         heading: "Illinois Institute of Technology",
@@ -3214,7 +3228,6 @@ export const resourcePages: ResourcePage[] = [
             body: "WISER is Illinois Tech's sustainable energy research institute, and alongside the Galvin Center for Electricity Innovation it gives the university real depth in power systems, grid modernization, and energy efficiency. Both are research and industry collaboration vehicles with faculty-only funding calls, so neither is a place a founder applies. Companies that want to work with this research should approach the Kaplan Institute or the university's technology transfer office.",
           },
         ],
-        photoBreakAfter: true,
       },
       {
         heading: "Loyola University Chicago",
@@ -3225,18 +3238,6 @@ export const resourcePages: ResourcePage[] = [
             type: "University venture competition",
             focus: "Sustainable business ventures",
             body: "The Abrams Sustainable Business Challenge is a year-long green venture building competition run jointly by Loyola's Baumhart Center and its School of Environmental Sustainability, taking teams from an idea through to a funded pitch. Eligibility is restricted to Loyola students and recent alumni, so it is not open to the wider founder community, and Loyola's value to everyone else is its sustainability faculty and graduates.",
-          },
-        ],
-      },
-      {
-        heading: "Fermi National Accelerator Laboratory (Batavia, Illinois)",
-        orgs: [
-          {
-            name: "Office of Partnerships and Technology Transfer",
-            url: "https://partnerships.fnal.gov",
-            type: "Technology transfer office",
-            focus: "Accelerator & detector technology",
-            body: "Fermilab is the national particle physics laboratory west of the city, and its partnerships and technology transfer office is the route to licensing its technology or setting up a collaboration, including through the Illinois Accelerator Research Center. Neither is a startup program founders apply to, and the practical commercialization path for Fermilab science runs through the University of Chicago deep-tech accelerators, which draw technology from Fermilab as well as Argonne.",
           },
         ],
       },
@@ -3287,6 +3288,58 @@ export const resourcePages: ResourcePage[] = [
             type: "Accelerator",
             focus: "Industrial & utility water technology",
             body: "The Sustainable Water Technology Accelerator is the founder-facing vehicle of the region's federally funded water innovation engine, run jointly by Current and mHUB. Selected companies receive investment from mHUB's funds alongside product development support, pilot access to utilities and industrial water users, and the research bench of Argonne and the University of Chicago, ending in a demo day.",
+          },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
+          {
+            name: "Resurgence (Polsky Center)",
+            url: "https://polsky.uchicago.edu",
+            type: "University accelerator",
+            focus: "Cleantech & clean energy",
+            body: "Resurgence is the cleantech accelerator inside Polsky Deep Tech Ventures, built with the Pritzker School of Molecular Engineering and supported by Invenergy. It works with early clean-energy teams on the particular difficulty of commercializing materials and energy science, moving from customer discovery through investor readiness with mentors drawn from the university, the national laboratories, and the region's energy operators.",
+          },
+          {
+            name: "Compass (Polsky Center)",
+            url: "https://polsky.uchicago.edu",
+            type: "University accelerator",
+            focus: "Early-stage deep tech",
+            body: "Compass is Polsky's deep-tech accelerator for the earliest stage, aimed at teams still shaping a technology into a venture rather than scaling one. It provides structured curriculum, mentorship, and a route into the wider Deep Tech Ventures network of accelerators, investors, and licensing support.",
+          },
+          {
+            name: "Transform (Polsky Center)",
+            url: "https://polsky.uchicago.edu",
+            type: "University accelerator",
+            focus: "AI & data science incl. climate",
+            body: "Transform is Polsky's data science and artificial intelligence accelerator, and it is not climate-dedicated, though climate and environment companies are explicitly eligible. Selected teams receive funding, curriculum, and mentorship modelled on Polsky's quantum accelerator, plus introductions to investors working in applied AI. Climate founders whose wedge is software and data fit better here than hardware founders, who should look at Resurgence.",
+          },
+          {
+            name: "Chain Reaction Innovations",
+            url: "https://chainreaction.anl.gov",
+            type: "Lab-embedded fellowship",
+            focus: "Energy & materials hard tech",
+            body: "Chain Reaction Innovations is the entrepreneurship program embedded inside Argonne National Laboratory in Lemont, part of the Department of Energy's lab-embedded entrepreneurship network. Fellows spend two years working full time on their technology with a stipend, a research allocation, and access to facilities almost no startup could otherwise reach, including the Advanced Photon Source, the Center for Nanoscale Materials, and the laboratory's battery prototyping facility, alongside a scientist mentor and business coaching from the Polsky Center and mHUB. Entry is through an annual application call and the program takes no equity.",
+          },
+          {
+            name: "UIC Technology Innovation Lab (TiLab)",
+            url: "https://techinnovationlab.uic.edu",
+            type: "University incubator",
+            focus: "Deep tech & wet lab ventures",
+            body: "The Technology Innovation Lab is UIC's incubator in the Illinois Medical District, and unusually for a university facility it is open to founders with no UIC affiliation alongside faculty, students, and staff. It offers wet and dry laboratory bench space as well as co-working, which matters for water, materials, and environmental sensing companies that need a sink and a fume hood rather than a desk.",
+          },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
+          {
+            name: "Ed Kaplan Family Institute Startup Studio",
+            url: "https://iit.edu/kaplan",
+            type: "University pre-incubator",
+            focus: "Student & faculty ventures",
+            body: "The Kaplan Institute is Illinois Tech's innovation building on the South Side, and its Startup Studio is the founder-facing part, offering mentorship, project funding, and technology competitions. Programming is largely for students and faculty rather than the open founder community, and the university's energy strength sits next door in its sustainable energy and electricity research centers.",
           },
         ],
       },
@@ -3483,6 +3536,13 @@ export const resourcePages: ResourcePage[] = [
             focus: "Energy & climate",
             body: "Energy Foundry is a Chicago-based energy and cleantech VC operating a utility-backed model, offering founders capital plus utility partnerships and pilots. Its value is a utility-aligned investor relationship.",
           },
+          {
+            name: "George Shultz Innovation Fund",
+            url: "https://polsky.uchicago.edu",
+            type: "University co-investment fund",
+            focus: "Early-stage university spinouts",
+            body: "The George Shultz Innovation Fund is Polsky's co-investment vehicle for ventures emerging from the University of Chicago, Argonne, Fermilab, and the Marine Biological Laboratory. Teams pitch for a first institutional cheque alongside diligence support from students and staff, and the fund exists to move technology out of the laboratory rather than to lead priced rounds.",
+          },
         ],
       },
     ],
@@ -3494,27 +3554,8 @@ export const resourcePages: ResourcePage[] = [
     sidebarLabel: "Universities",
     title: "Climate Programs at Universities",
     introLead: "Whether you're starting a career in climate, hiring talent, or building on the latest research, Amsterdam's universities are the place to start.",
-    introBody: "AMS Institute (Amsterdam Institute for Advanced Metropolitan Solutions), University of Amsterdam, VU Amsterdam, HvA & Amsterdam UMC (Innovation Exchange Amsterdam), Vrije Universiteit Amsterdam anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
+    introBody: "University of Amsterdam, VU Amsterdam, HvA & Amsterdam UMC (Innovation Exchange Amsterdam), Vrije Universiteit Amsterdam, Amsterdam University of Applied Sciences (HvA) anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
     groups: [
-      {
-        heading: "AMS Institute (Amsterdam Institute for Advanced Metropolitan Solutions)",
-        orgs: [
-          {
-            name: "AMS Startup Booster",
-            url: "https://ams-institute.org",
-            type: "Incubator",
-            focus: "Urban climate, circular & energy",
-            body: "The AMS Startup Booster is the incubator run by AMS Institute at Marineterrein, and it costs nothing and takes no equity, which is rare for a program of its quality. Over roughly five months, teams working on urban sustainability problems get coaching, validation support, access to the institute's living labs across the city, and a demo day in front of the Amsterdam ecosystem, with the research bench of TU Delft, Wageningen, and MIT behind it. Cohorts are selected through an open call.",
-          },
-          {
-            name: "Amsterdam Circular (AMS Institute)",
-            url: "https://ams-institute.org",
-            type: "Investor readiness program",
-            focus: "Circular economy",
-            body: "Amsterdam Circular is the investor-readiness program AMS Institute runs with the City of Amsterdam and Rockstart for circular-economy ventures. It is aimed at companies with traction that are not yet fundable, and it works on the specific difficulty of financing circular business models where value sits in materials, reuse, and long asset lives rather than in software margins.",
-          },
-        ],
-      },
       {
         heading: "University of Amsterdam, VU Amsterdam, HvA & Amsterdam UMC (Innovation Exchange Amsterdam)",
         orgs: [
@@ -3540,7 +3581,6 @@ export const resourcePages: ResourcePage[] = [
             body: "UvA Ventures Holding is the University of Amsterdam's investment arm, taking stakes in spinouts and providing the first capital that turns a research result into a company, with an academic angel fund alongside it for smaller cheques. Recent activity includes companies working on sustainable nanomaterials and battery electrolytes, which shows the sustainability pipeline is real rather than notional.",
           },
         ],
-        photoBreakAfter: true,
       },
       {
         heading: "Vrije Universiteit Amsterdam",
@@ -3558,18 +3598,6 @@ export const resourcePages: ResourcePage[] = [
             type: "Research institute",
             focus: "Environment, water & climate risk",
             body: "IVM is VU Amsterdam's environmental research institute, covering climate risk, water, and environmental economics, and it is a research institute with no founder-facing program. Its value to a founder is expertise and collaboration, particularly on climate risk and water questions where Dutch research is genuinely world-leading, and the commercialization route runs through Demonstrator Lab and ACE Incubator.",
-          },
-        ],
-      },
-      {
-        heading: "Amsterdam Science Park",
-        orgs: [
-          {
-            name: "Startup Village",
-            url: "https://amsterdamsciencepark.nl",
-            type: "Deep-tech community & workspace",
-            focus: "Science & deep tech",
-            body: "Startup Village is the deep-tech startup community at Amsterdam Science Park, and it is a place rather than a program, offering workspace and proximity to the university's science faculty, national research institutes, and ACE Incubator. For a climate hardware or data founder that adjacency is the point, because it puts research groups, technical hires, and the incubator within the same short walk.",
           },
         ],
         photoBreakAfter: true,
@@ -3590,18 +3618,6 @@ export const resourcePages: ResourcePage[] = [
             type: "University pre-incubator",
             focus: "Sustainability & impact ventures",
             body: "The Venture Centre is the entrepreneurship home of the Amsterdam University of Applied Sciences, and its main program takes teams through roughly twenty weeks of coaching and masterclasses aimed at ventures addressing sustainable development goals, ending in a pitch to a panel. Places are for students and recent graduates rather than the open founder community.",
-          },
-        ],
-      },
-      {
-        heading: "TNO (Netherlands Organisation for Applied Scientific Research)",
-        orgs: [
-          {
-            name: "TNO Ventures",
-            url: "https://ventures.tno.nl",
-            type: "Research organization venture arm",
-            focus: "Energy, industry & deep tech spinouts",
-            body: "TNO is the Dutch applied research organization, and its venture arm creates spinouts and takes stakes in startups building on TNO technology across energy, industry, and materials, with the option for young companies to pay in shares rather than cash. TNO's principal sites are outside Amsterdam, so treat this as a national resource reachable from the city rather than a local one.",
           },
         ],
       },
@@ -3652,6 +3668,58 @@ export const resourcePages: ResourcePage[] = [
             type: "Day-zero investor / residency",
             focus: "Sector-agnostic incl. climate",
             body: "Antler runs a residency in Amsterdam for founders at day zero, including people who do not yet have a company or a co-founder, and it invests a first cheque at the end for a fixed early stake. It is sector-agnostic rather than climate-specific, so climate founders sit alongside software and artificial intelligence teams, and what it offers is co-founder matching, structure, and a first cheque very early.",
+          },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
+          {
+            name: "AMS Startup Booster",
+            url: "https://ams-institute.org",
+            type: "Incubator",
+            focus: "Urban climate, circular & energy",
+            body: "The AMS Startup Booster is the incubator run by AMS Institute at Marineterrein, and it costs nothing and takes no equity, which is rare for a program of its quality. Over roughly five months, teams working on urban sustainability problems get coaching, validation support, access to the institute's living labs across the city, and a demo day in front of the Amsterdam ecosystem, with the research bench of TU Delft, Wageningen, and MIT behind it. Cohorts are selected through an open call.",
+          },
+          {
+            name: "Amsterdam Circular (AMS Institute)",
+            url: "https://ams-institute.org",
+            type: "Investor readiness program",
+            focus: "Circular economy",
+            body: "Amsterdam Circular is the investor-readiness program AMS Institute runs with the City of Amsterdam and Rockstart for circular-economy ventures. It is aimed at companies with traction that are not yet fundable, and it works on the specific difficulty of financing circular business models where value sits in materials, reuse, and long asset lives rather than in software margins.",
+          },
+          {
+            name: "ACE Incubator",
+            url: "https://ace-incubator.nl",
+            type: "University incubator",
+            focus: "Deep tech & knowledge spinouts",
+            body: "ACE Incubator is the shared incubator of Amsterdam's knowledge institutions, sitting inside Startup Village at Amsterdam Science Park and working with spinouts from the University of Amsterdam, VU Amsterdam, the Amsterdam University of Applied Sciences, and Amsterdam UMC. Programming runs from early exploration through a structured incubation cohort and into growth support, with workspace at the park, a mentor and investor network, and a route to first capital through the university holding company and its academic angel fund. Energy, climate, and sustainability ventures sit alongside life sciences and computing rather than in a dedicated climate track.",
+          },
+          {
+            name: "Demonstrator Lab",
+            url: "https://demonstratorlab.nl",
+            type: "University pre-incubator",
+            focus: "Deep tech & sustainability prototyping",
+            body: "Demonstrator Lab is the pre-incubation and prototyping facility on the VU Amsterdam campus, with a second location at Amsterdam Science Park, built for the stage before a company exists. Students, researchers, and staff get free or low-cost bench space, a makerspace for rapid prototyping, coaching, and help with patents, which suits sustainability and energy hardware ideas that have to be physically demonstrated before anyone will fund them.",
+          },
+          {
+            name: "Startup Village",
+            url: "https://amsterdamsciencepark.nl",
+            type: "Deep-tech community & workspace",
+            focus: "Science & deep tech",
+            body: "Startup Village is the deep-tech startup community at Amsterdam Science Park, and it is a place rather than a program, offering workspace and proximity to the University of Amsterdam's science faculty, national research institutes, and ACE Incubator. For a climate hardware or data founder that adjacency is the point, because it puts research groups, technical hires, and the incubator within the same short walk.",
+          },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
+          {
+            name: "AUAS Venture Centre",
+            url: "https://amsterdamuas.com/venture-centre",
+            type: "University pre-incubator",
+            focus: "Sustainability & impact ventures",
+            body: "The Venture Centre is the entrepreneurship home of the Amsterdam University of Applied Sciences, and its main program takes teams through roughly twenty weeks of coaching and masterclasses aimed at ventures addressing sustainable development goals, ending in a pitch to a panel. Places are for students and recent graduates rather than the open founder community.",
           },
         ],
       },
@@ -3847,6 +3915,25 @@ export const resourcePages: ResourcePage[] = [
             type: "Venture capital",
             focus: "Applied AI incl. energy & climate",
             body: "Curiosity is an Amsterdam pre-seed and seed investor in applied artificial intelligence software, and it names energy and climate technology among its focus areas alongside other verticals, covering smart grid, clean energy, solar, and battery software. It is a vertical software generalist rather than a climate specialist, which makes it a good fit for software-first climate founders and a poor one for hardware.",
+          },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
+          {
+            name: "UvA Ventures Holding",
+            url: "https://uva.nl",
+            type: "University investment vehicle",
+            focus: "University spinouts incl. energy & materials",
+            body: "UvA Ventures Holding is the University of Amsterdam's investment arm, taking stakes in spinouts and providing the first capital that turns a research result into a company, with an academic angel fund alongside it for smaller cheques. Recent activity includes companies working on sustainable nanomaterials and battery electrolytes, which shows the sustainability pipeline is real rather than notional.",
+          },
+          {
+            name: "TNO Ventures",
+            url: "https://ventures.tno.nl",
+            type: "Research organization venture arm",
+            focus: "Energy, industry & deep tech spinouts",
+            body: "TNO is the Dutch applied research organization, and its venture arm creates spinouts and takes stakes in startups building on TNO technology across energy, industry, and materials, with the option for young companies to pay in shares rather than cash. TNO's principal sites are outside Amsterdam, so treat this as a national resource reachable from the city rather than a local one.",
           },
         ],
       },
