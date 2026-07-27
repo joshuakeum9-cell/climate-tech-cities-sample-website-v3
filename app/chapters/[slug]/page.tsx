@@ -29,6 +29,8 @@ const chapterLogos: Record<string, string> = Object.fromEntries(
     "washington-dc",
     "san-diego",
     "seattle",
+    "chicago",
+    "amsterdam",
   ].map((slug) => [slug, `${BASE_PATH}/logos/${slug}.webp`]),
 );
 

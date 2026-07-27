@@ -76,6 +76,22 @@ export const chapters: Chapter[] = [
     x: 49.9,
     y: 25.5,
   },
+  {
+    name: "Chicago",
+    description:
+      "Heavy industry, freight, and the Great Lakes meet climate tech in the Midwest.",
+    slug: "chicago",
+    x: 25.6,
+    y: 32.2,
+  },
+  {
+    name: "Amsterdam",
+    description:
+      "Grid constraint, circular materials, and European climate finance in one city.",
+    slug: "amsterdam",
+    x: 51.3,
+    y: 24.9,
+  },
 ];
 
 export type ChapterFeature = {

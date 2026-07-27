@@ -27,7 +27,9 @@ export type CitySlug =
   | "los-angeles"
   | "washington-dc"
   | "san-diego"
-  | "seattle";
+  | "seattle"
+  | "chicago"
+  | "amsterdam";
 
 /** City skylines, drawn from each city's most recognizable silhouette. */
 function Skyline({ city }: { city: CitySlug }) {
@@ -123,6 +125,34 @@ function Skyline({ city }: { city: CitySlug }) {
           <path d="M232 176 L232 120 L204 176 Z" fill={MID} />
           <path d="M0 196 q40 -12 80 0 t80 0 t80 0 t60 0" stroke={LIGHT} strokeWidth="5" fill="none" />
           <path d="M0 214 q40 -12 80 0 t80 0 t80 0 t60 0" stroke={LIGHT} strokeWidth="5" fill="none" />
+        </g>
+      );
+    case "chicago": // Willis Tower with antennas + Hancock + lakefront
+      return (
+        <g>
+          <rect x="20" y="170" width="26" height="50" fill={LIGHT} />
+          <path d="M96 74 L100 30 M112 74 L108 30" stroke={INK} strokeWidth="4" />
+          <rect x="92" y="74" width="24" height="146" fill={INK} />
+          <rect x="80" y="104" width="12" height="116" fill={INK} />
+          <rect x="116" y="118" width="12" height="102" fill={INK} />
+          <path d="M156 96 L160 60 M176 96 L172 60" stroke={MID} strokeWidth="3" />
+          <path d="M154 96 L178 96 L172 220 L160 220 Z" fill={MID} />
+          <rect x="200" y="140" width="26" height="80" fill={INK} />
+          <rect x="234" y="158" width="22" height="62" fill={LIGHT} />
+          <path d="M262 200 q20 -8 38 0 L300 220 L262 220 Z" fill={LIGHT} />
+        </g>
+      );
+    case "amsterdam": // stepped-gable canal houses + bicycle wheel
+      return (
+        <g>
+          <path d="M30 220 L30 130 L46 112 L62 130 L62 220 Z" fill={MID} />
+          <path d="M70 220 L70 120 L78 120 L78 108 L92 108 L92 120 L100 120 L100 220 Z" fill={INK} />
+          <path d="M108 220 L108 138 L124 118 L140 138 L140 220 Z" fill={LIGHT} />
+          <path d="M148 220 L148 126 L156 126 L156 112 L170 112 L170 126 L178 126 L178 220 Z" fill={MID} />
+          <path d="M186 220 L186 134 L202 116 L218 134 L218 220 Z" fill={INK} />
+          <circle cx="252" cy="180" r="26" fill="none" stroke={CORAL} strokeWidth="5" />
+          <circle cx="252" cy="180" r="4" fill={CORAL} />
+          <path d="M0 232 q80 -14 300 0" stroke={LIGHT} strokeWidth="6" fill="none" />
         </g>
       );
     case "seattle": // Space Needle + Rainier + firs

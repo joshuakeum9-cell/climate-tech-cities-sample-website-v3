@@ -1,8 +1,10 @@
 /** Individual chapter pages (/chapters/[slug]).
  *
- *  City narratives are taken verbatim from the City Narratives sheet of
- *  Potential_CTC_Website_City_Resources_3.xlsx. Events and organizers are
- *  placeholders until real data exists. */
+ *  City narratives come from the City Narratives sheet of
+ *  Potential_CTC_Website_City_Resources_3_1.xlsx, converted to US spelling.
+ *  Hero hooks are purpose-written display copy: each pairs a verified city
+ *  fact with a chapter clause that makes no claim about what members work on.
+ *  Events and organizers are placeholders until real data exists. */
 
 export type ChapterEvent = {
   title: string;
@@ -19,7 +21,7 @@ export type ChapterPage = {
   city: string;
   /** Chapter newsletter (Substack) URL for the Stay in the Loop CTA */
   newsletterUrl?: string;
-  /** Purpose-written hero hook (display copy, independent of the narrative) */
+  /** Purpose-written hero hook, independent of the narrative below */
   lede: string;
   /** Full narrative, shown in the "<City> and Climate Tech" section */
   narrative: string[];
@@ -517,6 +519,139 @@ export const chapterPages: ChapterPage[] = [
       "The anchor institutions are strong and practical. The University of Washington is a major research and talent engine with clean-energy testbed infrastructure, and the nearby Pacific Northwest National Laboratory brings serious capability in grid, energy storage, and marine energy, including rare marine research facilities within the national-lab complex. The forests surrounding the region make Seattle a natural center for forestry, natural-carbon, and land-based climate work.",
       "Building decarbonization takes a distinctive shape here: a mild climate and a clean grid make electrification unusually clean and achievable, turning the city into a strong proving ground for building electrification done right.",
       "Seattle's climate ecosystem has long been quieter and less venture-dense than Boston's or the Bay Area's, and its software gravity can pull talent toward big-company jobs rather than startups. But for founders working on clean grids, aviation and maritime decarbonization, cloud-scale climate software, or natural carbon, few cities pair clean power, industrial depth, and technical talent so well.",
+    ],
+    upcomingEvents: [
+      {
+        title: "Monthly Climate Tech Meetup",
+        description: "Sample event. Our regular general meetup for anyone working in or curious about climate.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "people",
+      },
+    ],
+    pastEvents: [
+      {
+        title: "Climate Careers Panel",
+        description: "Sample event. Transitioners hear from people who made the jump into climate work.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "scene",
+      },
+      {
+        title: "Buildings Decarbonization Field Trip",
+        description: "Sample event. A hands-on visit to a retrofit project in the city.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "skyline",
+      },
+      {
+        title: "Founders & Funders Dinner",
+        description: "Sample event. A small dinner connecting early-stage founders with climate investors.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "people",
+      },
+      {
+        title: "Climate Policy Roundtable",
+        description: "Sample event. A working conversation on the rules shaping local climate work.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "scene",
+      },
+      {
+        title: "Grid & Energy Storage Meetup",
+        description: "Sample event. Talks and networking around the local energy transition.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "skyline",
+      },
+      {
+        title: "Climate Tech Holiday Social",
+        description: "Sample event. An end-of-year gathering for the whole chapter community.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "people",
+      },
+    ],
+    organizers: placeholderOrganizers,
+  },
+  {
+    slug: "chicago",
+    city: "Chicago",
+    lede:
+      "A quarter of American rail freight moves through Chicago, alongside heavy industry and the Great Lakes. This chapter gathers the community building at that intersection.",
+    narrative: [
+      "Chicago is where climate tech meets heavy industry and the laboratory bench. Few metropolitan areas put world-class battery and materials science, a deep manufacturing supply chain, the busiest freight interchange in North America, the world's commodity and derivatives markets, and the largest body of surface fresh water on the continent inside a single region. Argonne National Laboratory anchors the science, with decades of federally funded work on energy storage, recycling, and materials, and with user facilities that let a two-person company run experiments it could never afford to buy. Its lab-embedded fellowship has become one of the better routes in the country for a scientist to become a founder without leaving the instruments behind.",
+      "The commercial character of the city follows from that. Chicago rewards founders who need to make something physical and then sell it to an operator, which is why a prototyping floor and an industrial supplier network matter more here than another co-working space would, and why the region's most distinctive capital cluster funds the software that runs industrial and energy assets rather than consumer applications. The state's clean energy law commits Illinois to carbon-free power on a fixed schedule, phasing out coal and then gas generation while funding contractor and workforce programs along the way, and the grid already leans heavily on nuclear generation. That changes the arithmetic on electrification, and on clean firm power for the data centers now arriving in the region.",
+      "Water is the underrated story. The Great Lakes hold most of North America's surface fresh water, and Chicago has built a genuine water innovation cluster on that fact, with a federally funded regional engine convening utilities, industrial water users, and researchers across several states. Food and agriculture run just as deep, through the commodity exchanges, the processors headquartered nearby, and the farm belt that begins where the suburbs end. Freight and rail decarbonization are local problems here in a way they are not elsewhere, because the yards are inside the city.",
+      "Chicago suits the founder who would rather be near a customer's plant than a competitor's office, who needs a laboratory or a machine shop, and who will trade coastal valuations for patient capital, industrial pilots, and a lower cost of building.",
+    ],
+    upcomingEvents: [
+      {
+        title: "Monthly Climate Tech Meetup",
+        description: "Sample event. Our regular general meetup for anyone working in or curious about climate.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "people",
+      },
+    ],
+    pastEvents: [
+      {
+        title: "Climate Careers Panel",
+        description: "Sample event. Transitioners hear from people who made the jump into climate work.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "scene",
+      },
+      {
+        title: "Buildings Decarbonization Field Trip",
+        description: "Sample event. A hands-on visit to a retrofit project in the city.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "skyline",
+      },
+      {
+        title: "Founders & Funders Dinner",
+        description: "Sample event. A small dinner connecting early-stage founders with climate investors.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "people",
+      },
+      {
+        title: "Climate Policy Roundtable",
+        description: "Sample event. A working conversation on the rules shaping local climate work.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "scene",
+      },
+      {
+        title: "Grid & Energy Storage Meetup",
+        description: "Sample event. Talks and networking around the local energy transition.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "skyline",
+      },
+      {
+        title: "Climate Tech Holiday Social",
+        description: "Sample event. An end-of-year gathering for the whole chapter community.",
+        date: "Date placeholder",
+        location: "Location placeholder",
+        imageVariant: "people",
+      },
+    ],
+    organizers: placeholderOrganizers,
+  },
+  {
+    slug: "amsterdam",
+    city: "Amsterdam",
+    lede:
+      "The Dutch grid is so full that new connections wait in a queue, making constraint the market. Amsterdam's chapter brings that community together, and it works in English.",
+    narrative: [
+      "Amsterdam's climate story starts with a wire that is full. The Dutch electricity grid is so heavily subscribed that new connections across much of the country wait in a queue, and large users are regularly told there is no capacity to give. For a founder, that constraint is the market. Flexibility, storage, smart charging, demand response, local energy management, and forecasting are not speculative categories here. They are what grid operators, industrial users, and municipalities are actively buying, and the Netherlands is running the experiment several years ahead of most of Europe.",
+      "The second force is regulation, and Amsterdam sits unusually close to it. European rules on corporate sustainability reporting, carbon pricing at the border, and fuel blending in aviation and shipping create durable demand for measurement, compliance, and decarbonization technology, and the city's weight in European finance means the institutions that have to comply are often in the same neighborhood as the companies selling to them. That proximity has produced one of the densest concentrations of climate and impact capital in Europe, running from dedicated energy transition funds through bank-backed impact vehicles to the state investment institution.",
+      "The third is the city's own appetite. Amsterdam committed early and publicly to a circular economy, adopting a framework that treats material use and social outcomes as one problem, and it has kept commissioning programs, procurement, and living labs to make that real. Municipal government is therefore an unusually available first customer for circular materials, reuse, and construction ventures. The port adds industrial scale, pivoting from petroleum handling towards hydrogen and sustainable fuels, while the airport turns aviation decarbonization into an operational requirement rather than a pledge. Dutch strength in agrifood, greenhouse horticulture, and water management completes the problem set, and the last of those is an export business as much as a domestic one.",
+      "None of this requires Dutch. The working language of the ecosystem is English, and programs, funds, and events are built for international founders, which makes Amsterdam one of the easier European cities to land in and start selling.",
+      "Amsterdam suits the founder building for grid constraint, circular materials, agrifood, or climate finance who wants European regulatory tailwinds, dense impact capital, and a city government willing to be a customer.",
     ],
     upcomingEvents: [
       {
