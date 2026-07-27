@@ -380,13 +380,6 @@ export const resourcePages: ResourcePage[] = [
             body: "Zero Infinity Partners is a New York firm focused entirely on infrastructure technology across energy, power, mobility, logistics, water, waste, digital systems, and biomanufacturing, backing companies that digitize, decarbonize, or develop projects differently. It invests early and growth stage, bringing an infrastructure network and a senior bench of former utility and energy operators who know how these markets buy. Its portfolio reflects a hands-on, sector-deep approach.",
           },
           {
-            name: "Schneider Electric (SE Ventures)",
-            url: "https://www.seventures.com/home/",
-            type: "Industrial/energy CVC",
-            focus: "Climate & industrial tech",
-            body: "SE Ventures is Schneider Electric's corporate venture arm, investing in climate and industrial tech, energy management, industrial automation, electric mobility, and sustainability, with traditional-VC autonomy. Its differentiator is operating partners who connect companies to Schneider's global customer base for pilots and commercialization. It invests across stages and is strategic rather than New York-local.",
-          },
-          {
             name: "Streetlife Ventures",
             url: "https://streetlifeventures.com",
             type: "Venture capital",
@@ -407,11 +400,6 @@ export const resourcePages: ResourcePage[] = [
             focus: "Biodiversity / nature tech",
             body: "Superorganism is an early-stage firm billed as the first VC dedicated to biodiversity, backing pre-seed and seed founders across three themes: slowing extinction drivers, climate-nature solutions, and conservation tools like sensing, genomics, and robotics. It writes small early checks, works closely with founders on first-of-their-kind nature-positive problems, and pledges a share of profits to conservation.",
           },
-        ],
-        photoBreakAfter: true,
-      },
-      {
-        orgs: [
           {
             name: "Planeteer Capital",
             url: "https://planeteercapital.com",
@@ -419,6 +407,11 @@ export const resourcePages: ResourcePage[] = [
             focus: "Climate tech (early-stage)",
             body: "Planeteer Capital is a New York climate-first firm leading or co-leading pre-seed and seed rounds globally, focused on asset-light companies across food and land use, manufacturing, buildings, carbon management, industrial decarbonization, climate intelligence and insurance, and adaptation. Founded by a known climate-tech analyst, it is thesis-driven and helps founders design capitalization structures blending equity, debt, grants, and offtake.",
           },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
           {
             name: "Commonweal Ventures",
             url: "https://commonwealventures.com",
@@ -1187,13 +1180,6 @@ export const resourcePages: ResourcePage[] = [
             body: "National Grid Partners is the corporate venture and innovation arm of utility National Grid, with a genuine Massachusetts nexus through a Boston office and the utility's US headquarters in Waltham. It is a growth-oriented, multistage investor in grid decarbonization, electrification, and adjacent infrastructure, and most portfolio companies pilot on National Grid's US and UK networks, backed by its utility-executive network. Beyond capital it offers pilots and business development.",
           },
           {
-            name: "Schneider Electric (SE Ventures)",
-            url: "https://www.seventures.com/home/",
-            type: "Industrial/energy CVC",
-            focus: "Climate & industrial tech",
-            body: "SE Ventures is Schneider Electric's corporate venture arm, headquartered in the Bay Area with no Boston office, investing across stages in climate and industrial tech from energy management and automation to sustainability and electric mobility. Its differentiator is privileged access to Schneider's global customers, R&D labs, and embedded operating partners for pilots and commercialization. It is a strategic rather than a local investor.",
-          },
-          {
             name: "Iberdrola / Avangrid (PERSEO)",
             url: "https://www.iberdrola.com/about-us/our-innovation-model/international-startup-program-perseo",
             type: "Corporate VC",
@@ -1303,11 +1289,18 @@ export const resourcePages: ResourcePage[] = [
       {
         orgs: [
           {
-            name: "Ecosystem Integrity Fund",
-            url: "https://eif.vc/",
+            name: "Spring Lane Capital",
+            url: "https://springlanecapital.com/",
+            type: "Project / Venture capital",
+            focus: "Sustainable infrastructure",
+            body: "Spring Lane Capital is not an early-stage equity program but a private-equity firm providing hybrid project capital that combines project finance and growth capital to deploy sustainable-infrastructure projects in energy, food, water, waste, and transportation. Deals are structured as project facilities plus select company equity, sized in the tens of millions, and it is headquartered in Boston. Founders should use an equity seed fund for company capital and engage it later for project deployment.",
+          },
+          {
+            name: "Building Ventures",
+            url: "https://www.buildingventures.com/",
             type: "Venture capital",
-            focus: "Sustainability",
-            body: "Ecosystem Integrity Fund is a sustainability and climate VC headquartered in San Francisco, not Boston, investing at early-growth stage and typically leading Series A and B in capital-efficient, near-commercial technology. Focus spans renewable energy, grid management, efficiency, transportation, green chemistry, waste, and sustainable food. Beyond capital it offers growth support and industrial and utility relationships for exits.",
+            focus: "Built environment",
+            body: "Building Ventures is an early-stage VC headquartered in Boston, investing exclusively in the built environment across design, build, operate, and experience, spanning proptech, construction tech, and building decarbonization, typically leading or co-leading as first institutional investor at seed to Series A. It offers founders a large network of senior industry executives and strategic partners for pilots and distribution.",
           },
         ],
       },
@@ -1578,13 +1571,6 @@ export const resourcePages: ResourcePage[] = [
             focus: "Clean energy",
             body: "CalTestBed is a state-funded voucher program administered by New Energy Nexus with the University of California and Berkeley Lab, giving California clean-energy entrepreneurs vouchers for third-party testing across many facilities at UC campuses and the national lab. It takes no equity, no matched funding, and no IP, and adds a commercialization symposium, partner introductions, and an entrepreneur directory, requiring an existing hardware prototype and a California address.",
           },
-          {
-            name: "BlueTechValley",
-            url: "https://www.btvnc.org/",
-            type: "Public program (CEC)",
-            focus: "Clean energy",
-            body: "BlueTechValley is a state-funded clean-energy innovation cluster managed from Fresno State, serving California's Central Valley through a hub-and-spoke model across several campuses. For clean-energy, water, and ag-tech founders it offers technology evaluation, proof-of-concept and demonstration sites, incubation and acceleration, business and legal services, and workspace, with a focus on disadvantaged communities and access to university testing.",
-          },
         ],
       },
     ],
@@ -1710,13 +1696,6 @@ export const resourcePages: ResourcePage[] = [
             body: "Galvanize Climate Solutions is a multi-strategy climate investment firm spanning venture, growth, public equities, real estate, and private credit, more a global asset manager than a dedicated seed fund. Its venture strategy takes equity in early and growth-stage climate companies, and its differentiated offering is an in-house team of science, policy, and technology experts adding technical diligence and scaling support. It is headquartered in San Francisco.",
           },
           {
-            name: "Energy Foundry",
-            url: "https://energyfoundry.com/",
-            type: "Venture capital",
-            focus: "Energy & climate",
-            body: "Energy Foundry is a Chicago-based energy and cleantech VC operating a utility-backed model, offering founders capital plus utility partnerships and pilots. Its value is a utility-aligned investor relationship.",
-          },
-          {
             name: "Powerhouse Ventures",
             url: "https://www.powerhouse.fund/",
             type: "Venture capital",
@@ -1724,30 +1703,11 @@ export const resourcePages: ResourcePage[] = [
             body: "Powerhouse Ventures is the seed-stage fund of the Oakland-based Powerhouse organization, backing founders building software to decarbonize energy, mobility, and industry. It writes early checks and draws proprietary deal flow and corporate customer access from its sister innovation firm, with strategic partners among large energy and technology companies. It is headquartered in Oakland.",
           },
           {
-            name: "Spring Lane Capital",
-            url: "https://springlanecapital.com/",
-            type: "Project / Venture capital",
-            focus: "Sustainable infrastructure",
-            body: "Spring Lane Capital is not an early-stage equity program but a private-equity firm providing hybrid project capital that combines project finance and growth capital to deploy sustainable-infrastructure projects in energy, food, water, waste, and transportation. Deals are structured as project facilities plus select company equity, sized in the tens of millions, and it is headquartered in Boston with no Bay Area presence. Founders should use an equity seed fund for company capital and engage it later for project deployment.",
-          },
-          {
             name: "At One Ventures",
             url: "https://www.atoneventures.com/",
             type: "Venture capital",
             focus: "Nature-positive deep tech",
             body: "At One Ventures is an early-stage nature-positive deep-tech climate VC leading most of its first checks at seed and Series A, with a thesis requiring disruptive deep tech, upended unit economics, and net-positive outcomes for nature beyond carbon. It backs teams with in-house platform support for talent, manufacturing, marketing, IP, and fundraising, and a rapid-prototyping ethos. It is headquartered in San Francisco.",
-          },
-        ],
-        photoBreakAfter: true,
-      },
-      {
-        orgs: [
-          {
-            name: "Overture (VC)",
-            url: "https://www.overture.vc/",
-            type: "Venture capital",
-            focus: "Climate / public sector",
-            body: "Overture is an early-stage climate VC investing pre-seed to Series A, often leading, across energy, AI, resilience, and industrial transformation, with a distinctive government and policy edge. Its signature benefit is in-kind government-affairs support to unlock federal and state grants, loans, permitting, and public-sector customers. It is anchored in Washington DC.",
           },
           {
             name: "Emerson Collective",
@@ -1763,6 +1723,11 @@ export const resourcePages: ResourcePage[] = [
             focus: "Sustainability",
             body: "Valo Ventures is a thesis-driven VC investing at venture and growth stage, primarily seed and Series A, across North America and Europe around digitization, decarbonization, and adaptation, recently framed as physical AI, energy, and materials. Beyond capital it offers alignment to long-run megatrend theses and a supportive partner group. It is headquartered in Palo Alto.",
           },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
           {
             name: "Powerhouse",
             url: "https://powerhouse.fund",
@@ -1777,11 +1742,6 @@ export const resourcePages: ResourcePage[] = [
             focus: "Low-carbon energy",
             body: "Chevron Technology Ventures is Chevron's corporate VC, investing early through late stage via a core fund for lower-carbon technology and future-energy funds for industrial decarbonization, emerging mobility, decentralization, and the circular and carbon economy. Beyond capital it offers pilots and deployment within Chevron's operations, technical validation, a venture-creation partnership with a national lab, and a large co-investor network. It is headquartered in San Ramon.",
           },
-        ],
-        photoBreakAfter: true,
-      },
-      {
-        orgs: [
           {
             name: "Salesforce Ventures (Impact Fund)",
             url: "https://salesforceventures.com/",
@@ -1802,6 +1762,32 @@ export const resourcePages: ResourcePage[] = [
             type: "Venture capital",
             focus: "Climate tech (early-stage)",
             body: "Prelude Ventures is a climate-dedicated VC investing since the late 2000s with a single-family capital base that enables patient, climate-first, no-fossil-fuels investing from early stage through growth, across the built environment, carbon management, compute, food and agriculture, energy, industrials, and mobility. Its technical managing directors act as thesis-driven partners. It is headquartered in San Francisco.",
+          },
+        ],
+        photoBreakAfter: true,
+      },
+      {
+        orgs: [
+          {
+            name: "Schneider Electric (SE Ventures)",
+            url: "https://www.seventures.com/home/",
+            type: "Industrial/energy CVC",
+            focus: "Climate & industrial tech",
+            body: "SE Ventures is Schneider Electric's corporate venture arm, headquartered in the Bay Area, investing across stages in climate and industrial tech from energy management and automation to sustainability and electric mobility. Its differentiator is privileged access to Schneider's global customers, R&D labs, and embedded operating partners for pilots and commercialization. It is a strategic rather than a local investor.",
+          },
+          {
+            name: "Ecosystem Integrity Fund",
+            url: "https://eif.vc/",
+            type: "Venture capital",
+            focus: "Sustainability",
+            body: "Ecosystem Integrity Fund is a sustainability and climate VC headquartered in San Francisco, investing at early-growth stage and typically leading Series A and B in capital-efficient, near-commercial technology. Focus spans renewable energy, grid management, efficiency, transportation, green chemistry, waste, and sustainable food. Beyond capital it offers growth support and industrial and utility relationships for exits.",
+          },
+          {
+            name: "Toyota Ventures (Climate Fund)",
+            url: "https://toyota.ventures/",
+            type: "Corporate VC",
+            focus: "Climate",
+            body: "The Toyota Ventures Climate Fund is the climate arm of Toyota's early-stage corporate VC, headquartered in the San Francisco Bay Area, targeting seed-stage startups with scalable solutions for carbon neutrality across renewable energy, storage and batteries, carbon capture and utilization, and hydrogen. Beyond capital it offers Toyota's global network, technical expertise, strategic partnerships, a dedicated portfolio-support team, and potential to become an early customer.",
           },
         ],
       },
@@ -1984,13 +1970,6 @@ export const resourcePages: ResourcePage[] = [
             body: "CalSEED provides non-dilutive grants to the earliest-stage California clean-energy innovators, funded by the state's clean-energy R&D charge and administered by New Energy Nexus, through concept awards and larger prototype awards won in an annual business-plan competition. Beyond cash it offers professional-development services, mentorship, legal counsel, a community of entrepreneurs, and access to regional clusters, with an explicit priority on diverse founders and disadvantaged communities.",
           },
           {
-            name: "Southern California Energy Innovation Network",
-            url: "https://cleantechsandiego.org",
-            type: "Public Incubator",
-            focus: "Clean energy",
-            body: "The Southern California Energy Innovation Network is a free public incubator managed by Cleantech San Diego and funded by the state, offering commercialization support to clean-energy startups, but its geography is San Diego, Imperial, Riverside, and San Bernardino counties rather than the city of LA. It provides customized business services through a regional partner consortium, industry connections, pilot matchmaking, mentorship, and grant support, taking no equity. LA-based founders should instead use LACI's clean-energy programs.",
-          },
-          {
             name: "CALSTART",
             url: "https://calstart.org/",
             type: "Nonprofit consortium",
@@ -2077,51 +2056,11 @@ export const resourcePages: ResourcePage[] = [
             body: "Idealab is a Pasadena-based startup studio and company-builder, not a traditional accelerator, with a long history in renewable energy and climate. Its model is co-creation, generating or co-developing ideas, providing first capital, recruiting teams, and supplying shared operational infrastructure across product, marketing, legal, and business development, taking a founding equity stake, with companies joining by invitation rather than open cohorts.",
           },
           {
-            name: "Overture (VC)",
-            url: "https://www.overture.vc/",
-            type: "Venture capital",
-            focus: "Climate / public sector",
-            body: "Overture is an early-stage climate VC with a strong Washington policy edge, investing pre-seed to Series A in energy, resilience, AI, and industrial transformation where public policy and government procurement are central. Its signature benefit is embedded government-affairs support to win federal and state grants and loans, navigate regulation, and sell into public-sector customers. Its founders are LA-connected though the firm is DC-oriented, so verify its primary office.",
-          },
-        ],
-        photoBreakAfter: true,
-      },
-      {
-        orgs: [
-          {
             name: "MaC Venture Capital",
             url: "https://macventurecapital.com/",
             type: "Venture capital",
             focus: "Tech incl. climate",
             body: "MaC Venture Capital is an LA-based seed VC, among the larger seed firms in North America, investing with a cultural-investing thesis across frontier technologies, fintech, enterprise, consumer, and some climate and infrastructure. It offers seed founders strategic, perspective-driven guidance, a diverse multidisciplinary team, and an active lead-investor posture, as a generalist rather than a climate specialist. It is headquartered in Los Angeles.",
-          },
-          {
-            name: "Ten13 / Climate-focused LA angels",
-            url: "https://www.ten13.vc/",
-            type: "Angel / Venture",
-            focus: "Climate tech",
-            body: "Ten13 is an Australian venture syndicate, not LA-based, using a deal-by-deal, network-based model rather than a pooled fund, and it is early-stage and generalist across fintech, software, and AI without a specific climate thesis. Founders get access to its large syndicate community of operators, founders, and family offices, focused on Australia, the US, and Africa.",
-          },
-          {
-            name: "Building Ventures",
-            url: "https://www.buildingventures.com/",
-            type: "Venture capital",
-            focus: "Built environment",
-            body: "Building Ventures is an early-stage VC headquartered in Boston, not Los Angeles, investing exclusively in the built environment across design, build, operate, and experience, spanning proptech, construction tech, and building decarbonization, typically leading or co-leading as first institutional investor at seed to Series A. It offers founders a large network of senior industry executives and strategic partners for pilots and distribution.",
-          },
-          {
-            name: "Toyota Ventures (Climate Fund)",
-            url: "https://toyota.ventures/",
-            type: "Corporate VC",
-            focus: "Climate",
-            body: "The Toyota Ventures Climate Fund is the climate arm of Toyota's early-stage corporate VC, headquartered in the San Francisco Bay Area rather than LA, targeting seed-stage startups with scalable solutions for carbon neutrality across renewable energy, storage and batteries, carbon capture and utilization, and hydrogen. Beyond capital it offers Toyota's global network, technical expertise, strategic partnerships, a dedicated portfolio-support team, and potential to become an early customer.",
-          },
-          {
-            name: "Chevron Technology Ventures",
-            url: "https://www.chevron.com/what-we-do/technology-and-innovation/technology-ventures",
-            type: "Corporate VC",
-            focus: "Low-carbon energy",
-            body: "Chevron Technology Ventures is Chevron's corporate strategic VC, headquartered in Houston rather than LA, investing through a core fund for its own operations and a future-energy fund for transition technology like carbon capture, hydrogen, storage, industrial decarbonization, and emerging mobility, typically at Series A through C. Its distinctive value is access to Chevron's industrial assets and facilities for piloting and a scale-up and partnership pathway.",
           },
         ],
       },
@@ -2740,13 +2679,6 @@ export const resourcePages: ResourcePage[] = [
             focus: "Clean transportation",
             body: "CALSTART is a national nonprofit clean-transportation consortium and program administrator with hundreds of member companies and agencies, running major incentive programs and offering members network connections, market intelligence, partner-matching, and policy guidance, not an early-stage accelerator or investor. It takes no equity and writes no venture checks.",
           },
-          {
-            name: "BlueTechValley",
-            url: "https://www.btvnc.org/",
-            type: "Public program (CEC)",
-            focus: "Clean energy",
-            body: "BlueTechValley is a state-funded clean-energy, water, and agriculture innovation cluster centered on Fresno State and covering Central and Northern California, offering an accelerator, technology evaluation, proof-of-concept validation, field-testing sites, and commercialization services. It is a Central Valley cluster rather than a San Diego program, and San Diego blue-economy founders should instead use the regional maritime cluster and UC San Diego's startBlue.",
-          },
         ],
       },
     ],
@@ -2780,17 +2712,10 @@ export const resourcePages: ResourcePage[] = [
     sidebarLabel: "Capital Partners",
     title: "Climate Capital & Investors",
     introLead: "The capital backing climate companies in San Diego.",
-    introBody: "From Critical Capital Partners and Southern California Energy Innovation Network to the funds investing across the region, here is a starter map of the investors active in the local climate ecosystem.",
+    introBody: "From Southern California Energy Innovation Network and Tech Coast Angels (San Diego) to the funds investing across the region, here is a starter map of the investors active in the local climate ecosystem.",
     groups: [
       {
         orgs: [
-          {
-            name: "Critical Capital Partners",
-            url: "https://critical-cap.com/",
-            type: "Venture capital",
-            focus: "Climate adaptation/mitigation",
-            body: "Critical Capital Partners is a Europe-based capital platform for family offices structuring growth-stage co-investment and infrastructure financing in critical industrial technology across energy, food, the built environment, and industry. It is not an early-stage VC. It offers curated-network access, fundraising-prep guidance, and market intelligence rather than a defined local check.",
-          },
           {
             name: "Southern California Energy Innovation Network",
             url: "https://cleantechsandiego.org/scein/",
@@ -3108,11 +3033,11 @@ export const resourcePages: ResourcePage[] = [
             body: "Earth Finance is a Seattle-based climate strategy and finance advisory firm, not a founder-facing VC, providing corporate transition strategy, spatial finance, energy-security, and nature and water advisory, and growing through acquisitions. It has a genuine Seattle headquarters but works with enterprises rather than funding or incubating startups. Founders seeking capital route to E8, VertueLab, or the corporate funds.",
           },
           {
-            name: "Congruent Ventures",
-            url: "https://www.congruentvc.com/",
+            name: "Fuse Venture Partners",
+            url: "https://www.fuse.vc/",
             type: "Venture capital",
-            focus: "Climate / energy transition",
-            body: "Congruent Ventures is a San Francisco-based early-stage climate VC investing pre-seed to Series A across mobility and urbanization, energy transition, food and agriculture, and sustainable production, often as the first institutional check, with no Pacific Northwest office though it invests in and co-invests with regional players. Beyond capital it offers multidisciplinary underwriting and deep cleantech-cycle experience.",
+            focus: "PNW tech incl. climate",
+            body: "Fuse Venture Partners is a Seattle-area, Pacific Northwest-focused VC investing at seed and Series A and positioned as one of the few local funds able to lead Series A rounds, with a large network of senior operators for go-to-market, customer introductions, and hiring. It is not climate-specific, with a thesis in enterprise software and AI, robotics, spacetech, and healthcare, so climate founders fit only if software or AI-enabled. It has a genuine Seattle presence.",
           },
         ],
         photoBreakAfter: true,
@@ -3120,25 +3045,11 @@ export const resourcePages: ResourcePage[] = [
       {
         orgs: [
           {
-            name: "Fuse Venture Partners",
-            url: "https://www.fuse.vc/",
-            type: "Venture capital",
-            focus: "PNW tech incl. climate",
-            body: "Fuse Venture Partners is a Seattle-area, Pacific Northwest-focused VC investing at seed and Series A and positioned as one of the few local funds able to lead Series A rounds, with a large network of senior operators for go-to-market, customer introductions, and hiring. It is not climate-specific, with a thesis in enterprise software and AI, robotics, spacetech, and healthcare, so climate founders fit only if software or AI-enabled. It has a genuine Seattle presence.",
-          },
-          {
             name: "Madrona Venture Group",
             url: "https://www.madrona.com/",
             type: "Venture capital",
             focus: "Tech incl. climate/energy",
             body: "Madrona Venture Group is Seattle's flagship generalist VC investing from seed through later stages in enterprise software, AI, and cloud, with a strong regional focus and an emerging climate-tech practice that added a sustainability-focused venture partner and spun out an emissions startup through its studio. It is not a dedicated climate fund but offers full-stack hands-on support and an in-house studio. It has a genuine Seattle presence.",
-          },
-          {
-            name: "Trailhead Capital",
-            url: "https://www.trailheadcap.com/",
-            type: "Venture capital",
-            focus: "Regenerative climate",
-            body: "Trailhead Capital is a Boulder-based regenerative-agriculture and climate VC investing at seed and Series A in tech-enabled food value chains, soil health, and carbon sequestration, with a North American and global mandate. Its value is deep regenerative food and agriculture focus rather than local proximity.",
           },
           {
             name: "WRF Capital (Washington Research Foundation)",
@@ -3154,11 +3065,6 @@ export const resourcePages: ResourcePage[] = [
             focus: "UW-affiliated deep tech",
             body: "Pack Ventures is a Seattle-based, UW-affiliated VC investing pre-seed and seed in startups with UW ties across applied AI, enterprise software, life sciences, robotics, and deep tech, offering UW and CoMotion network access, mentorship, and backing from local venture heavyweights. It is not climate-dedicated, with climate fitting only incidentally. It has a genuine Seattle presence.",
           },
-        ],
-        photoBreakAfter: true,
-      },
-      {
-        orgs: [
           {
             name: "Stepchange (Stepchange Ventures)",
             url: "https://stepchange.vc",
@@ -3569,6 +3475,13 @@ export const resourcePages: ResourcePage[] = [
             type: "Venture capital / accelerator",
             focus: "Food, beverage & agrifood technology",
             body: "Cleveland Avenue invests and accelerates from a Chicago base, founded by a former McDonald's chief executive, and it concentrates on food, beverage, consumer, and agricultural technology from seed through growth. Its climate relevance is adjacent rather than central, showing up in alternative protein and sustainable packaging rather than energy or industrial decarbonization.",
+          },
+          {
+            name: "Energy Foundry",
+            url: "https://energyfoundry.com/",
+            type: "Venture capital",
+            focus: "Energy & climate",
+            body: "Energy Foundry is a Chicago-based energy and cleantech VC operating a utility-backed model, offering founders capital plus utility partnerships and pilots. Its value is a utility-aligned investor relationship.",
           },
         ],
       },
