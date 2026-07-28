@@ -2556,10 +2556,10 @@ export const resourcePages: ResourcePage[] = [
     sidebarLabel: "Universities",
     title: "Climate Programs at Universities",
     introLead: "Whether you're starting a career in climate, hiring talent, or building on the latest research, San Diego's universities are the place to start.",
-    introBody: "UC San Diego (Jacobs School / von Liebig Center), UC San Diego (Institute for the Global Entrepreneur), San Diego State University anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
+    introBody: "UC San Diego, San Diego State University, University of San Diego (Brink SBDC) anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
     groups: [
       {
-        heading: "UC San Diego (Jacobs School / von Liebig Center)",
+        heading: "UC San Diego",
         orgs: [
           {
             name: "von Liebig Center for Entrepreneurism",
@@ -2568,11 +2568,6 @@ export const resourcePages: ResourcePage[] = [
             focus: "Clean-energy commercialization",
             body: "UC San Diego's von Liebig Center is a proof-of-concept center commercializing university inventions through pre-seed grants, business mentoring, and entrepreneurial education, rather than an open-application accelerator. It provides technology-advancement and customer-validation grants and a network of technology and business advisors who guide researchers through commercialization milestones, with much current activity delivered through the Institute for the Global Entrepreneur.",
           },
-        ],
-      },
-      {
-        heading: "UC San Diego (Institute for the Global Entrepreneur)",
-        orgs: [
           {
             name: "Institute for the Global Entrepreneur (IGE)",
             url: "https://ige.ucsd.edu/",
@@ -2595,7 +2590,6 @@ export const resourcePages: ResourcePage[] = [
             body: "UC San Diego's Deep Decarbonization Initiative is a cross-campus research and policy initiative studying how the economy reaches net-zero, embedding social science within energy-systems research and funding fellowships and curriculum, not a startup program. It offers no accelerator, founder grants, or commercialization support. Founders route to von Liebig and IGE for UC San Diego commercialization and to SCEIN and CalSEED for clean energy.",
           },
         ],
-        photoBreakAfter: true,
       },
       {
         heading: "San Diego State University",
@@ -2622,6 +2616,7 @@ export const resourcePages: ResourcePage[] = [
             body: "SDSU's Center for Regional Sustainability is an applied-sustainability research and community-engagement center advancing sustainability and environmental justice in the San Diego and Tijuana region through community-based research, stewardship, and technical assistance, serving communities and governments rather than startups. It runs no dedicated founder program, so a founder's realistic touchpoints are research collaboration or student projects. Founders route to ZIP Launchpad for venture support.",
           },
         ],
+        photoBreakAfter: true,
       },
       {
         heading: "University of San Diego (Brink SBDC)",
@@ -3554,10 +3549,10 @@ export const resourcePages: ResourcePage[] = [
     sidebarLabel: "Universities",
     title: "Climate Programs at Universities",
     introLead: "Whether you're starting a career in climate, hiring talent, or building on the latest research, Amsterdam's universities are the place to start.",
-    introBody: "University of Amsterdam, VU Amsterdam, HvA & Amsterdam UMC (Innovation Exchange Amsterdam), Vrije Universiteit Amsterdam, Amsterdam University of Applied Sciences (HvA) anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
+    introBody: "University of Amsterdam (UvA), Vrije Universiteit Amsterdam, Amsterdam University of Applied Sciences (HvA) anchor the region's climate research and feed talent into the industries doing the work. Read on for a starter guide to the major programs and centers.",
     groups: [
       {
-        heading: "University of Amsterdam, VU Amsterdam, HvA & Amsterdam UMC (Innovation Exchange Amsterdam)",
+        heading: "University of Amsterdam (UvA)",
         orgs: [
           {
             name: "ACE Incubator",
